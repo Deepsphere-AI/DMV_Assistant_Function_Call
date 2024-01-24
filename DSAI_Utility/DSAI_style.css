@@ -1,0 +1,131 @@
+/* sidebar backgroud */
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section.css-163ttbj.e1fqkh3o11 > div.css-6qob1r.e1fqkh3o3 > div.css-1vq4p4l.e1fqkh3o4{
+    background-color: #318CE7;
+}
+
+/* sidebar padding */
+.st-emotion-cache-16txtl3 {
+    padding: 2rem 1.5rem;
+}
+
+/* sidebar logo */
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section.css-163ttbj.e1fqkh3o11 > div.css-6qob1r.e1fqkh3o3 > div.css-1vq4p4l.e1fqkh3o4 > div > div:nth-child(1) > div > div.css-ocqkz7.e1tzin5v4 > div:nth-child(1) > div:nth-child(1) > div > div > div > div > div > img{
+    
+    max-width: 80%;
+    border-radius: 10px;
+}
+
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section.css-163ttbj.e1fqkh3o11 > div.css-6qob1r.e1fqkh3o3 > div.css-1vq4p4l.e1fqkh3o4 > div > div:nth-child(1) > div > div.css-ocqkz7.e1tzin5v4 > div:nth-child(2) > div:nth-child(1) > div > div > div > div > div > img{
+ 
+    max-width: 80%;
+    border-radius: 10px;
+}
+
+
+/* sidebar clear button */
+input[type="submit"] {
+    width: 100%;
+    height: 45px;
+    border-radius: 10px;
+    background: #32CD32;
+    border-color: #32CD32;
+    color:white;
+}
+
+/* sidebar dropdown alignment */
+.css-81oif8{
+        min-height:0.5rem;
+}
+
+/* Main page top adjustment */
+.css-k1ih3n {
+    width: 100%;
+    padding: 3rem;
+}
+
+/* Deepsphere logo alignment */
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.css-k1vhr4.egzxvld5 > div.block-container.css-k1ih3n.egzxvld4 > div:nth-child(1) > div > div.css-ocqkz7.e1tzin5v4 > div:nth-child(1) > div:nth-child(1) > div > div > div > div > div > img{
+    max-width: 54% !important;
+    left: 39%;
+    top:-15%;
+    position: relative;
+}
+
+/* Ngee logo alignment */
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.css-k1vhr4.egzxvld5 > div.block-container.css-k1ih3n.egzxvld4 > div:nth-child(1) > div > div.css-ocqkz7.e1tzin5v4 > div:nth-child(2) > div:nth-child(1) > div > div > div > div > div > img{
+    
+    max-width: 58% !important;
+    position: relative;
+    left: -5%;
+    top: 5%;
+    
+}
+
+/* Main page label(subheader) adjustment */
+h3 {
+    font-size: 22px;
+}
+
+/* Main page button styles */
+
+.css-1x8cf1d{
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.25rem;
+    margin: 0px;
+    line-height: 2.6;
+    color: inherit;
+    width: 100%;
+    user-select: none;
+    background-color: #32CD32;
+    border: 1px solid rgba(49, 51, 63, 0.2);
+}
+
+/* Logo and title adjustment */
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.css-k1vhr4.egzxvld5 > div.block-container.css-k1ih3n.egzxvld4 > div:nth-child(1) > div > div:nth-child(3){
+    height:130px;
+}
+
+h2 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    color: rgb(49, 51, 63);
+    letter-spacing: -0.005em;
+    margin: 0px;
+    line-height: 1.2;
+    padding : 0rem 0px !important;
+}
+
+/* label/dropdown alignment */
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.st-emotion-cache-uf99v8.ea3mdgi3 > div.block-container.st-emotion-cache-z5fcl4.ea3mdgi2 > div > div > div > div:nth-child(6) > div.st-emotion-cache-1hfz2gb.e1f1d6gn3 > div > div > div > div > div > label{
+
+    min-height: 0rem;
+}
+
+/* Preview button alignment */
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.st-emotion-cache-uf99v8.ea3mdgi3 > div.block-container.st-emotion-cache-z5fcl4.ea3mdgi2 > div > div > div > div:nth-child(8) > div.st-emotion-cache-1hfz2gb.e1f1d6gn3 > div > div > div > div:nth-child(8) > div > button{
+    
+        background: green;
+        color: white;
+        width: 100%;
+        padding: 10px;
+}
+
+/* Get Stats Report button alignment */
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.st-emotion-cache-uf99v8.ea3mdgi3 > div.block-container.st-emotion-cache-z5fcl4.ea3mdgi2 > div > div > div > div:nth-child(15) > div.st-emotion-cache-1hfz2gb.e1f1d6gn3 > div > div > div > div > div > button{
+ 
+    background: green;
+        color: white;
+        width: 100%;
+        padding: 10px;
+}
+
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.css-k1vhr4.egzxvld5 > div.block-container.css-k1ih3n.egzxvld4 > div:nth-child(1) > div > div:nth-child(20){
+    visibility: hidden;
+    height: 0px;
+}
+
+
+/* To remove small df displaying */
+/* .css-17b7mgn {
+    display: none;
+} */
