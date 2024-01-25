@@ -15,7 +15,7 @@ def All_Initialization():
     with col2:
         image = Image.open('DSAI_Utility/DMV_Logo.png')
         st.image(image)
-    st.markdown("<h1 style='text-align: center; color: #454545; font-size:25px;'>Interact with Bigquery in Natural Language</h1><h2 style='text-align: center; color: blue; font-size:20px;'>With LLM, enterprises can extract insights from data using natural language</h2>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center; color: #454545; font-size:25px;'>Integration of applications is simplified using LLM Prompt (via function calls)</h1><h2 style='text-align: center; color: blue; font-size:20px;'>With LLM, enterprises can extract insights from data using natural language</h2>", unsafe_allow_html=True)
     st.markdown("""
     <hr style="width:100%;height:3px;background-color:gray;border-width:10">
     """, unsafe_allow_html=True)

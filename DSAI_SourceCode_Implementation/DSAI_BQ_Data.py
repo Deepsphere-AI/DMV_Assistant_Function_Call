@@ -1,7 +1,7 @@
 from google.cloud import bigquery
 import os
 
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = r"C:\Users\Admin\Downloads\elp-prod-c69c22187b05.json"
+# os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = r"C:\Users\Admin\Downloads\elp-prod-c69c22187b05.json"
 
 
 def get_config_details(vAR_config):

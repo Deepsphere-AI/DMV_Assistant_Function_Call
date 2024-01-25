@@ -19,10 +19,10 @@ def FunctionWithAssistant():
         vAR_st.session_state.thread_id = None
 
     if 'generated' not in vAR_st.session_state:
-        vAR_st.session_state['generated'] = ["We are delighted to have you here in the DMV's Internal Query Team"]
+        vAR_st.session_state['generated'] = []
 
     if 'history' not in vAR_st.session_state:
-        vAR_st.session_state['history'] = ["Hello!"]
+        vAR_st.session_state['history'] = []
         
     thread = client.beta.threads.create()
     vAR_st.session_state.thread_id = thread.id
@@ -31,8 +31,8 @@ def FunctionWithAssistant():
     with vAR_container:       
         with vAR_st.form(key='my_form ', clear_on_submit=True):
         
-            vAR_user_input = vAR_st.text_input("Prompt:", placeholder="How can I help you?", key='input')
-            vAR_submit_button = vAR_st.form_submit_button(label='Chat')
+            vAR_user_input = vAR_st.text_input("Prompt:", placeholder="Please enter the arguments for the function", key='input')
+            vAR_submit_button = vAR_st.form_submit_button(label='Call the function via LLM')
     
         if vAR_user_input and vAR_submit_button:
             vAR_response = run_assistant(vAR_user_input,vAR_st.session_state.thread_id,vAR_assistant_id)
